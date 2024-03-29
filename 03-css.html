@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML常用元素练习</title>
+    <style>
+      h1 {
+        color: red;
+        text-align: center;
+      }
+      h2 {
+        font-family: "Ma Shan Zheng";
+      }
+      .eng {
+        font-family: AdobeGothicStd;
+      }
+      
+      h1 a:visited {
+        color: red;
+      }
+      a:link {
+        color: brown;
+      }
+      a:visited {
+        color: black;
+      }
+      #location {
+        font-family: serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="https://w3.org">HTML</a>常用元素练习</h1>
+    <p>
+      <a href="https://www.daodejing.org/">道可道</a
+      >，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無欲，以觀其妙；常有欲，以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。
+      天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作焉而不辭，生而不有。為而不恃，功成而弗居。夫唯弗居，是以不去。
+      道冲而用之或不盈，渊兮似万物之宗。挫其锐，解其纷，和其光，同其尘。湛兮似或存，吾不知谁之子，象帝之先。
+    </p>
+    <p>
+      <img src="https://avatars.githubusercontent.com/u/7952163?v=4" alt="" />
+    </p>
+    <ol>
+      <li>大一</li>
+      <li>大二</li>
+      <li>大三</li>
+    </ol>
+    <h2 class="eng">Douban Book+</h2>
+    <h2>好读书，也求甚解</h2>
+
+    <p>发现好书靠豆瓣，阅读好书靠 Douban Book+</p>
+
+    <h2 id="location">地点</h2>
+    <p>
+      道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無欲，以觀其妙；常有欲，以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。
+      天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作焉而不辭，生而不有。為而不恃，功成而弗居。夫唯弗居，是以不去。
+      道冲而用之或不盈，渊兮似万物之宗。挫其锐，解其纷，和其光，同其尘。湛兮似或存，吾不知谁之子，象帝之先。
+    </p>
+  </body>
+</html>
