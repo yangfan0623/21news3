@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>武侠人物生成器</title>
+    <style>
+        body {
+            font-family: 'Zhi Mang Xing', cursive, 'Microsoft JhengHei', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #d32f2f;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background: #d32f2f;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #b22b2b;
+        }
+        #characterInfo {
+            margin-top: 20px;
+            font-size: 18px;
+            border-top: 2px solid #eee;
+            padding-top: 10px;
+        }
+        .character-item {
+            margin-bottom: 10px;
+        }
+        .character-item strong {
+            color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>武侠人物生成器</h1>
+        <button id="generateButton">生成人物介绍</button>
+        <div id="characterInfo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
